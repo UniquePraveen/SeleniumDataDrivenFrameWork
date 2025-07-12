@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "LoginTest">
+    <test name = "LoginTestUsingExcelData">
+        <classes>
+            <class name = "DataDrivenLoginTest.DataDrivenTestingUsingReadExcel"/>
+        </classes>
+    </test>
+</suite>

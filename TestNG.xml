@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Login">
+
+    <test name="BothCorrect">
+        <parameter name="username" value="admin"/>
+        <parameter name="password" value="admin123"/>
+        <classes>
+            <class name="LoginTestCases.BothCorrect"/>
+        </classes>
+    </test>
+
+    <test name="Incorrect">
+        <parameter name="username" value="Admin"/>
+        <parameter name="password" value="Admin123"/>
+        <classes>
+            <class name="LoginTestCases.BothIncorrect"/>
+        </classes>
+    </test>
+
+    <test name="CorrectPassword">
+        <parameter name="username" value="Admin"/>
+        <parameter name="password" value="admin123"/>
+        <classes>
+            <class name="LoginTestCases.CorrectPassword"/>
+        </classes>
+    </test>
+
+    <test name="CorrectUserName">
+        <parameter name="username" value="admin"/>
+        <parameter name="password" value="Admin123"/>
+        <classes>
+            <class name="LoginTestCases.CorrectUserName"/>
+        </classes>
+    </test>
+
+</suite>
