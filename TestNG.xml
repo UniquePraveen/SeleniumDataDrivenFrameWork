@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<suite name="Login">
+<suite name="Login" parellel="tests" thread-count="5">
 
     <test name="BothCorrect">
         <parameter name="username" value="admin"/>
